@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+<style type="text/css">
+	body {
+    background:#110;
+}
+.form_bg {
+    background-color:#F3DADA;
+    color:#666;
+    padding:20px;
+    position: absolute;
+    border:1px solid #fff;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    height: 280px;
+}
+.align-center {
+    text-align:center;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="form_bg">
+            <form>
+                 <h2 class="text-center">Login Page</h2>
+                <br/>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="userid" placeholder="User id">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="pwd" placeholder="Password">
+                </div>
+                <br/>
+                <div class="align-center">
+                    <button type="submit" class="btn btn-default" onclick="return check(this.form)" id="login">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == "AKSHAT@gmail.com" && form.pwd.value == "AKSHAT")
+{
+	
+	alert("Successfully logged In")
+	return true;
+}
+else
+{
+	alert("Error Password or Username")
+	return false;
+}
+}
+</script>
+</body>
+</html>
