@@ -1,0 +1,16 @@
+<h2 style=" text-align: center;text-transform: uppercase;">Detail Form</h2>
+<table class="center" style="margin-top: 10%;">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Delete</th>
+    </tr>
+    <tr *ngFor="let item of map | keyvalue">
+        <td>{{item.key}}</td>
+        <td *ngFor="let itemv of item.value | keyvalue">
+           {{itemv.value}}
+        </td>
+        <td><button class="button" type="submit" (click)="delete(item.key)">Delete</button> </td>
+    </tr>
+</table>

@@ -1,0 +1,11 @@
+<h2 style=" text-align: center;text-transform: uppercase;">Login Form</h2>
+  <div style="text-align: center" >
+    <form [formGroup]="Form" (ngSubmit)="onSubmit()" style="padding-bottom: 3%;" class="box">
+            <h2 >Register</h2>  
+              <input type="number"  placeholder="Id" [(ngModel)]="Id" formControlName="I_d"> 
+              <input type="text"  placeholder="Name" [(ngModel)]="Name" formControlName="N_ame">         
+              <input type="text" placeholder="Email" [(ngModel)]="Email" formControlName="E_mail"   >                      
+              <button style="margin-top: 3%;" type="submit" class="button" >Submit</button> 
+                   
+    </form>
+</div>

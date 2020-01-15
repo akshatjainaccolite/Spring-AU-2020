@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 450px;
+    padding: 14px;
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-left: 2%;
+}
+.box h2{
+    color:rgb(4, 0, 7);
+    text-transform: uppercase;
+    font-weight: 550;
+}
+
+.box input[type="text"],.box input[type="number"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #050105;
+    padding: 8px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.button{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #010405;
+    padding: 10px 10px;
+    width: 50%;
+    height:40%;
+    color: rgb(5, 1, 17);
+    border-radius: 10px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-weight: 400;
+    
+}
