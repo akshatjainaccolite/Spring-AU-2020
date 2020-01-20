@@ -1,0 +1,8 @@
+1. Have an xml of size atleast .25MB. and implement DOM/SAX parsers ( Odd Employee ID guys will implement DOM and rest SAX )
+2. Create some meaningful FULL Annotation for Method and Class target types
+3. Design your own TriConsumer lambda
+4. Demonstrate Exception handling in Lambda's using wrapper lambdas
+5. Create 2 tables in db having some kind of relationship, create a stored procedure which joins the two tables and returns columns in any db and call it using callable statements and map it to a model object ( Use JDBC Methods to make connection )
+6. Create a method which takes two strings as inputs ( your dob and your parent/sibling date of birth ) and returns the difference in terms of:
+	1. The number of days of difference between two in nano seconds
+	2. Consider your dob in different time zone and then convert your parent/sibling dob in that time zone and find difference in days
